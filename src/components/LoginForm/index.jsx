@@ -30,8 +30,8 @@ export const LoginForm = () => {
           onChange={(e) => setSenha(e.target.value)}
         />
         <div className="text-right text-sm mt-1">
-          <span className="text-gray-500">Esqueceu sua senha? </span>
-          <a href="#" className="text-sky-600 hover:underline">Recupere aqui</a>
+          <span className="text-black-300">Esqueceu sua senha? </span>
+          <a href="#" className="text-blue-600 hover:underline font-semibold">Recupere aqui</a>
         </div>
       </div>
 
